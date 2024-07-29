@@ -1,0 +1,58 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .js-div,.inputs{
+    display: grid;
+    grid-template-columns: 200px 170px 100px;
+    align-items: center;
+    row-gap: 20px;
+    font-size: 18px;
+  }
+  .inputs{
+    align-items: stretch;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+  }
+  .all{
+    width:40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 40px 0;
+    border-radius: 10px;
+    /* padding-top: 0px; */
+    margin-top: 200px;
+    background-color: lightcoral;
+  }
+  
+  .js-todo-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 180px;
+    height: 40px;
+  }
+  .js-todo-date{
+    border-radius: 15px;
+    width: 150px;
+  }
+  .delete-button,.add-button{
+    height: 42px;
+    width: 100px;
+    background-color: rgb(170, 46, 46);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  
+  .delete-button:hover,.add-button:hover{
+    opacity: 0.85;
+  }
+  
+  .add-button{
+    background-color: rgb(13, 112, 13);
+  }
